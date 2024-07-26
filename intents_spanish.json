@@ -1,0 +1,60 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": ["Hola", "Buen día", "Buenos días"],
+      "responses": ["¡Hola!, buen día", "Hola, ¿cómo estás?", "¡Hola!, ¿cómo le va?", "Buen día, ¿cómo te puedo ayudar?"]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["Adios", "Hasta luego", "Nos vemos", "chao", "chau"],
+      "responses": ["¡Hasta luego!", "¡Adiós!", "¡Que tenga buen día!", "Hasta pronto!", "¡Nos vemos!"]
+    },
+    {
+      "tag": "horario",
+      "patterns": ["horarios de atencion", "horario", "hasta que hora trabajan", "a que hora puedo retirar", "hasta cuando puedo ir a retirar", "retirar"],
+      "responses": ["Nuestro horario de atención es de 9:30 a 17:30", "Trabajamos desde las 9:30 hasta las 17:30"]
+    },
+    {
+      "tag": "medios_de_pago",
+      "patterns": ["medios de pago", "formas de pago", "cómo puedo pagar", "métodos de pago"],
+      "responses": ["Puedes pagar con tarjeta de crédito, tarjeta de débito, en efectivo en puntos de pago, dinero en Mercado Pago, depósitos y transferencias bancarias."]
+    },
+    {
+      "tag": "costos_financiacion",
+      "patterns": ["costos de financiación", "financiación", "cuotas", "cuotas sin interés"],
+      "responses": [ "Puedes pagar en cuotas con costos de financiación. Con tarjetas de crédito deberá ser en un solo pago"]
+    },
+    {
+      "tag": "contacto",
+      "patterns": ["números de teléfono", "teléfonos", "contactos", "contactar", "llamar", "WhatsApp"],
+      "responses": ["Teléfono fijo del local: 01148564334,\n  Administración: 11552630439,\n  Atención al cliente Shuk Industrial: +541154145330,\n  Atención al cliente Mercado Libre: +541131158816,\n   Atención al cliente Intor: +541133544897,\n   Área Técnica Electrónica: +541133545300,\n  Área Técnica Neumática: +541121585607"]
+    },
+    {
+      "tag": "nuestros_correos",
+      "patterns": ["correo electrónico", "emails", "enviar por correo", "email","correos", "escribir por correo"],
+      "responses": [ "Email Intor: ventas@intor.com.ar\n  Email Shuk: shuk.industrial@gmail.com\n Email Administración: adm@intor.com.ar\n  Email para Presupuesto: shuk.industrial@gmail.com"]
+    },
+    {
+      "tag": "servicios",
+      "patterns": ["servicios", "qué servicios ofrecen", "ofrecen servicios"],
+      "responses": ["Diseño CAD de componentes y mecanismos. Ensamblajes de componentes neumáticos. Diseño de Manifold a medida. Diseño de circuitos neumáticos. Diseño de conectores y válvulas especiales.Entregas por kits (Kitting).Prototipos y testeos."]
+    },
+    {
+      "tag": "ventajas_servicios",
+      "patterns": ["ventajas de sus servicios", "beneficios de sus servicios", "por qué elegir sus servicios"],
+      "responses": ["Dentro de las ventajas de nuestros serivicio se encuntra que los componentes estarán 100% testeados. Menor cantidad de componentes en sus ensambles. Disminución de inventarios. Menor número de proveedores y órdenes de compra. Menores tiempos de ensamble y costos laborales. Reducción general de costos."]
+    },
+    {
+      "tag": "transporte",
+      "patterns": ["que transportes utilizan", "por donde envian los productos", "entregas a domicilio","realizan entregas", "entregas", "envios"],
+      "responses": ["Tenemos dos modalidades de entrega, una sería a domicilio con pago por adelantado y la segunda es con llegada a terminal y pago en destino. La elección del método de transporte está determinada por el código postal del domicilio o el nombre de la terminal de ómnibus especificada por el cliente. Se realizan envíos por moto en CABA y localidades cercanas"]
+    },
+    {
+      "tag": "politica_devoluciones",
+      "patterns": ["política de devoluciones", "devoluciones", "cómo devolver un producto", "devolucion", "devolver"],
+      "responses": [
+        "MERCADO LIBRE:\n Las devoluciones realizadas a través de Mercado Libre deben gestionarse mediante la plataforma de compra original, siempre y cuando el producto se encuentre en buen estado.\n SHUK INDUSTRIAL o INTOR:\n Para devoluciones a través de Shuk Industrial o Intor el cliente debe comunicarse obligatoriamente con un asistente de la plataforma y especificar el motivo de la devolución.\n POR TRANSPORTE:\n Si la devolución se realiza a través de un servicio de transporte, el cliente debe contar con nuestros datos:\nNombre / Apellido: Grupo Tornado S.A.\nDNI de quien recibe: 30-71038904-3\nDirección: Muñecas 1375, Villa Crespo, Buenos Aires, Código Postal 1414\nHorarios: Lunes a viernes de 9:30 a 17:30\nTeléfono: 1131158816\nCorreo Electrónico: shuk.industrial@gmail.com\nCondiciones Generales: Todas las devoluciones deben realizarse dentro de un período máximo de 30 días a partir de la fecha de compra."]
+    }
+  ]
+}
